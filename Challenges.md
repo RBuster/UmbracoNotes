@@ -1,4 +1,4 @@
-# Challenges we might face, and possible solutions
+# Challenges we might face, possible solutions, and some things to consider
 
 ## Media storage
 **problem**: Umbraco stores media (images, documents, etc.) on the file system.  
