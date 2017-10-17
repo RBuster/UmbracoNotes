@@ -1,4 +1,6 @@
-# UmbracoNotes
+# Development Notes
+
+[<- home](README.md)
 
 ## Content
 
@@ -15,9 +17,9 @@ On the front end pane you will see the master page as content, which can be anno
 
 Everything in umbraco is customizable with typical MVC and .Net standards. Controllers can be hijacked for custom implementation, and partials rendered in the same fashion
 
-Umrbaco is MVC first, with the application layered on. This means that there are no real layers of applicaiton to work through to get custom implementations through. 
+Umbraco is MVC first, with the application layered on. This means that there are no real layers of applicaiton to work through to get custom implementations through. 
 
-While Umrbaco does offer an API, it is familiar to MVC developers and is built off the back of traditional MVC framwork ideas.
+While Umbraco does offer an API, it is familiar to MVC developers and is built off the back of traditional MVC framwork ideas.
 
 Customization is all over the place with Umbraco, and could take up weeks of talks about it. From normal css and js, to back end screens it all follows the same pattern. 
 
@@ -33,7 +35,7 @@ This can be accessed just like any other piece of content. All content has an ID
 
 Umbraco can be configured in a billion different ways. For the sake of this document not going off the rails, I will focus mainly on the configuring of data storage.
 
-Umrbaco has a neat way of constucting concrete classes based on document types. In the web.config you can set the Umbraco.ModelsBuilder.ModelsMode value to LiveDll, and Umbraco will convert your dynamic document type to a concrete class for use in server side code.
+Umbraco has a neat way of constucting concrete classes based on document types. In the web.config you can set the Umbraco.ModelsBuilder.ModelsMode value to LiveDll, and Umbraco will convert your dynamic document type to a concrete class for use in server side code.
 
 This works just as easily as you would expect it to. Simply get the object you need, and dot off for the properties you want to access. There are a few properties like documents and images that will need extra helpers involved, but that is the case pretty much everywhere. Get used to it.
 
@@ -43,7 +45,7 @@ There are other ways, like regular Dll mode, but that means the developer will n
 
 Perhaps the best thing about Umbraco is how light weight it is. On a clean install, you get exactly that, a completely clean install. That means no snazzy features like blogs and news, but all of that is plug-in-able as you need it. So if you need a single page app with nothing fancy, you can get exactly that with nothing more slowing you down.
 
-Umrbaco has a market place, both in the backend of the applicaiton itself, as well as on the web. Users can create their own packages for private or public use, and anyone can download packages for their own use. The power of open source.
+Umbraco has a market place, both in the backend of the application itself, as well as on the web. Users can create their own packages for private or public use, and anyone can download packages for their own use. The power of open source.
 
 ## Styling and Scripting
 
@@ -60,6 +62,6 @@ There really doesn't need to be much more here, it's free, straight up.
 Umbraco does have paid plans for upgrades and hosting, as well as enterprise support plans for much cheaper than other .Net cms's.
 
 ## Hosting/Build servers
+Since Umbraco is based on a single NuGet package, it is quite simple to integrate into a continuous-integration pipeline. There is no special package source that needs to be configured.
 
-Umrbaco works well on azure, and seems to have no problems.
-# JOHNNY ADD SOME SHIT HERE IF YOUR ARE BORED, OTHERWISE IT'S COOL, I CAN REMOVE THIS BIT CAUSE I DON'T KNOW ENOUGH ABOUT IT.
+Likewise, Umbraco works well on Azure and seems to have no problems.
