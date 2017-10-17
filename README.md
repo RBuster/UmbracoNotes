@@ -2,4 +2,6 @@
 Some notes and things to consider when developing on the Umbraco CMS platform
 
 ## Table of contents:
+ - [Development Notes](DevelopmentNotes.md)
  - [Challenges](Challenges.md)
+ - [Awesomeness](Awesomeness.md)
