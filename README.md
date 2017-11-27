@@ -7,4 +7,5 @@ Some notes and things to consider when developing on the Umbraco CMS platform
  - [Awesomeness](Awesomeness.md)
  - Topic-Specific Notes
      - [Surface Controllers](notes/surface-controllers.md)
+     - [Media API](notes/media-api.md)
      - [Content API](notes/content-api.md)
